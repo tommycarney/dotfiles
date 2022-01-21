@@ -111,3 +111,4 @@ alias dc="docker-compose"
 alias ls='ls -G'
 alias ll='ls -lG'
 alias penny-db='docker exec -it pennybags_postgres_1 psql -U postgres -d pennybags_development'
+alias penny-cop='docker-compose exec pennybags-local-dev bundle exec rubocop'
